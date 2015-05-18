@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>小説サイトテンプレート(json編) | 思い立ったが吉日</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="top" data-story="data/story1.json">
+    <header id="page-header">
+      <nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+              <nav class="pull">
+                <ul class="top-nav" id="top-nav">
+                  <!-- スクリプト書き換え箇所-->
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="title">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-right navicon">
+              <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center inner">
+              <h1 class="animated fadeInDown" id="page-title"><!-- スクリプト書き換え箇所--></h1>
+              <p class="animated fadeInUp delay-05s" id="page-sub-title"><!-- スクリプト書き換え箇所--></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div id="story-main">
+      <!-- スクリプト書き換え箇所-->
+    </div>
+
+    <section id="story-link">
+      <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-1">
+            <a href="javascript:void(0)" class="story-link prev">
+              <i class="fa fa-angle-double-left"></i>
+              <span>前のお話しへ</span>
+            </a>
+          </div>
+          <div class="col-xs-4 col-xs-offset-2">
+            <a href="javascript:void(0)" class="story-link next">
+              <i class="fa fa-angle-double-right"></i>
+              <span>次のお話しへ</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="afterword">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+              <div class="col-xs-3" >
+                <img src="" class="profile-image">
+              </div>
+              <div class="col-xs-9">
+                <h1 class="name"><!-- スクリプト書き換え箇所--></h1>
+                <p class="text"><!-- スクリプト書き換え箇所--></p>
+                <ul class="social-buttons">
+                  <!-- スクリプト書き換え箇所-->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="legals">
+              <!-- スクリプト書き換え箇所-->
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p class="credit"></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ロード中画面 -->
+    <div id="loader-bg">
+      <div id="loader">
+        <i class="fa fa-spinner fa-spin"></i>
+        <p>Now Loading...</p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/story-json-parser.js"></script>
+  </body>
+</html>
